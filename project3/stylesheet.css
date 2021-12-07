@@ -1,23 +1,83 @@
 body, html {
     height: 100%;
+	background-color: #010101;
+	margin: 0 auto ;
 }
 
-/* The hero image */
+header{
+	padding: 10px;
+}
+
+
+h1, h2, h3{
+	font-family: Closeness; 
+	color: white;
+	align-content: center;
+	text-align: center;
+}
+nav {
+  float: inherit;
+	padding: 5px;
+	
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 90px;
+  padding-top: 13px;
+  position: relative;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: white;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: white;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+
+
 .herohome {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+ 
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("postmain.jpg");
 
-  /* Set a specific height */
-  height:70%;
 
-  /* Position and center the image to scale nicely on all screens */
+  height:100%;
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
-/* Place text in the middle of the image */
+
 .herohome-text {
   text-align: center;
   position: absolute;
@@ -28,21 +88,21 @@ body, html {
 }
 
 .herohollywood {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hollywood.jpg");
 
-  /* Set a specific height */
+ 
   height: 100%;
 	
 
-  /* Position and center the image to scale nicely on all screens */
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
-/* Place text in the middle of the image */
+
 .herohollywood-text {
   text-align: center;
   position: absolute;
@@ -53,21 +113,20 @@ body, html {
 }
 
 .herobeerbongs {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("beerbongs.jpg");
 
-  /* Set a specific height */
   height: 100%;
 	
 
-  /* Position and center the image to scale nicely on all screens */
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
-/* Place text in the middle of the image */
+
 .herobeerbongs-text {
   text-align: center;
   position: absolute;
@@ -78,21 +137,21 @@ body, html {
 }
 
 .herostoney {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("stoney.jpg");
 
-  /* Set a specific height */
+ 
   height: 100%;
 	
 
-  /* Position and center the image to scale nicely on all screens */
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
-/* Place text in the middle of the image */
+
 .herostoney-text {
   text-align: center;
   position: absolute;
@@ -105,6 +164,31 @@ body, html {
 .aboutalbum{
 	
 	
-	/* user black background color from roadtrip project */
+	/* use black background color from roadtrip project */
+}
+
+
+.newsrow{
+	
+	display: flex;
+}
+
+
+
+.newscolumnpic{
+	
+	flex: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+
+.newscolumntext{
+	
+	flex: 50%;
+  padding: 10px;
+  height: 300px;
+	background-color:white;
+	
 }
 
