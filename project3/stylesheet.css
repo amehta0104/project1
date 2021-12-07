@@ -8,17 +8,48 @@ header{
 	padding: 10px;
 }
 
-
-h1, h2, h3{
-	font-family: Closeness; 
-	color: white;
-
-	text-align: center;
+li {
+	font-size: 20px;
 }
 
-p{
+
+
+
+h1{
+	font-family: Closeness; 
+	color: white;
+font-size: 70px;
+	text-align: center;
+	margin: 5px;
+	padding: 20px;
+}
+
+ h3{
+	font-family: Closeness; 
+	color: white;
+font-size: 24px;
+	text-align: center;
+	margin: 5px;
+	padding: 20px;
+}
+
+
+h2{
+	font-family: Closeness; 
+	color: white;
+font-size: 40px;
+	text-align: center;
+	margin: 5px;
+	padding: 20px;
+}
+
+p {
 	color: white;
 	padding: 5px;
+	font-family: SF Compact Text;
+	margin: 5px;
+	padding: 10px;
+	font-size: 20px;
 }
 nav {
   float: inherit;
@@ -43,7 +74,7 @@ nav a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 nav a:hover {
@@ -176,6 +207,7 @@ nav a:hover::before {
 .newsrow{
 	
 	display: flex;
+
 }
 
 
@@ -198,7 +230,9 @@ nav a:hover::before {
 	flex: 60%;
   padding: 10px;
   height: auto;
+	width: 100%;
 	background-color:black;
+	
 	
 	
 }
