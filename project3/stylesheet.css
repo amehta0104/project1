@@ -1,7 +1,7 @@
 body, html {
     height: 100%;
 	background-color: #010101;
-	margin: 0 auto ;
+	margin: auto ;
 }
 
 header{
@@ -12,8 +12,13 @@ header{
 h1, h2, h3{
 	font-family: Closeness; 
 	color: white;
-	align-content: center;
+
 	text-align: center;
+}
+
+p{
+	color: white;
+	padding: 5px;
 }
 nav {
   float: inherit;
@@ -177,18 +182,24 @@ nav a:hover::before {
 
 .newscolumnpic{
 	
-	flex: 50%;
+	flex: 40%;
   padding: 10px;
-  height: 300px;
+  height:auto;
+}
+
+.newscolumnpic img{
+	height:auto;
+	width: 100%;
 }
 
 
 .newscolumntext{
 	
-	flex: 50%;
+	flex: 60%;
   padding: 10px;
-  height: 300px;
-	background-color:white;
+  height: auto;
+	background-color:black;
+	
 	
 }
 
