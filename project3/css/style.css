@@ -2,6 +2,7 @@ body, html {
     height: 100%;
 	background-color: #010101;
 	margin: auto ;
+	
 }
 
 header{
@@ -49,7 +50,7 @@ p {
 	font-family: SF Compact Text;
 	margin: 5px;
 	padding: 10px;
-	font-size: 20px;
+	font-size: 16px;
 }
 nav {
   float: inherit;
@@ -102,7 +103,7 @@ nav a:hover::before {
 
 .herohome {
  
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("postmain.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/postmain.jpg");
 
 
   height:100%;
@@ -125,7 +126,7 @@ nav a:hover::before {
 
 .herohollywood {
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hollywood.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hollywood.jpg");
 
  
   height: 100%;
@@ -150,7 +151,7 @@ nav a:hover::before {
 
 .herobeerbongs {
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("beerbongs.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/beerbongs.jpg");
 
   height: 100%;
 	
@@ -174,7 +175,7 @@ nav a:hover::before {
 
 .herostoney {
   
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("stoney.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/stoney.jpg");
 
  
   height: 100%;
@@ -201,6 +202,14 @@ nav a:hover::before {
 	
 	
 	/* use black background color from roadtrip project */
+}
+
+#newscontainer{
+	
+	align-content: center;
+	margin: 0 auto;
+	padding: 2px;
+	
 }
 
 
