@@ -183,11 +183,19 @@ text-decoration-line: none;
 	margin: 0;
 }
 
-@media (max-width: 50rem) and (orientation: portrait){
+@media (max-width: 25rem) and (orientation: portrait){
     .container{
-        grid-template-columns: 1fr;
-		grid-template-rows: 1fr;
+        display: block;
+		 grid-gap: 10px;
+		
     }
+	.grid-1, .grid-2, .grid-3, .grid-4{
+		border-color: black;
+		border-style: solid;
+		border-radius: 12px;
+		
+		
+	}
 }
 
 .container > div {
@@ -209,6 +217,7 @@ text-decoration-line: none;
 	grid-row-start: 1;
   grid-row-end: 3;
 	background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/uniken.png);
+	border-radius: 5px;
 	
 	
 }
@@ -217,6 +226,7 @@ text-decoration-line: none;
 	grid-row-start: 1;
 	grid-row-end: 3;
 	background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/closetp.png);
+		border-radius: 5px;
 }
 
 
@@ -224,6 +234,7 @@ text-decoration-line: none;
 	grid-row-start: 3;
 	grid-row-end: 5;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/samsblog.png);
+		border-radius: 5px;
 }
 
 
@@ -231,6 +242,7 @@ text-decoration-line: none;
 	grid-row-start: 3;
 	grid-row-end: 5;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/currentp.png);
+		border-radius: 5px;
 }
 
 .herogrid{
