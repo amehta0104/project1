@@ -183,14 +183,21 @@ text-decoration-line: none;
 	margin: 0;
 }
 
+@media (max-width: 50rem) and (orientation: portrait){
+    .container{
+        grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+    }
+}
+
 .container > div {
 	background-color: rgba(255, 255, 255, 0.2);
   text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+  padding: 20px 0px;
+  font-size: 25px;
 	margin: 0;
 	height: 500px;
-	width: 100%;
+	width: auto;
 	align-content: center;
 	border-image-repeat: no-repeat;
 	background-position: center;
