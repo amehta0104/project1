@@ -105,12 +105,20 @@ text-decoration-line: none;
 	font-size: 20px
 }
 
+img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	
+	z-index: 1;
+}
+
 .hero{
 	
  
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/purple-space-passage-nb-2560x1440.jpg");
 
-  height: 500px;
+  height: 400px;
 	width: 100%;
 	margin: 0;
 
@@ -118,6 +126,8 @@ text-decoration-line: none;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+	align-content: center;
+	padding: 1em;
 	
 }
 
@@ -144,8 +154,10 @@ text-decoration-line: none;
 	height: auto;
 	width: 100%;
 	background-color: #fbfbfd;
-	margin: auto;
-	padding: 1em;
+	margin: 0;
+	padding: 2em;
+	align-content: center;
+		justify-content: center;
 }
 
 /* inside body containers will be responsive inside parent container*/ 
@@ -155,9 +167,11 @@ text-decoration-line: none;
 	flex: 100%;
 	background-color: #fbfbfd;
 	padding: 1em;
-	height: auto;
-	width: auto;
-	margin: auto;
+	height: 100%;
+	align-content: center;
+	justify-content: center;
+	
+
 	
 	
 }
@@ -183,8 +197,37 @@ text-decoration-line: none;
 	margin: 0;
 }
 
+.homecontainer {
+	
+	display: grid;
+	
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  background-color: #fbfbfd;
+  padding: 10px;
+	margin: 0;
+	
+}
+
+.circle {
+  position: inherit;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+	object-position: center;
+	object-fit: cover;
+  background-color: white;
+	z-index: 10;
+}
+
 @media (max-width: 25rem) and (orientation: portrait){
     .container{
+        display: block;
+		 grid-gap: 10px;
+		
+    } 
+	
+	.homecontainer{
         display: block;
 		 grid-gap: 10px;
 		
@@ -227,6 +270,24 @@ text-decoration-line: none;
 	grid-row-end: 3;
 	background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/closetp.png);
 		border-radius: 5px;
+}
+
+.homegrid-1{
+	
+	grid-row-start: 1;
+  grid-row-end: 3;
+	
+
+	
+}
+
+.homegrid-2{
+	grid-row-start: 1;
+	grid-row-end: 3;
+	border-radius: 5px;
+	padding: .5em;
+	
+	
 }
 
 
