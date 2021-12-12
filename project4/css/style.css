@@ -1,0 +1,182 @@
+
+
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { 
+	
+	
+	margin: 0;
+	padding: 0;
+		border: 0;
+		font-size: 100%;
+	
+
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+
+	body {
+		line-height: 1;
+	}
+
+
+*{
+box-sizing: border-box;
+}
+
+header{
+	height: auto;
+	width: 100%;
+	margin: 0 auto;
+	padding: 1em;
+}
+.links{
+	padding: .5em;
+}
+
+#siteheaders{
+	
+	
+	text-align: center;
+	
+	width: 100%;
+	height: auto;
+	padding: 2em;
+	
+}
+
+
+
+/* Nav Bar */ 
+
+
+#navbar{
+	
+	background-color: blue;
+	
+
+	
+	
+}
+
+h1{
+	font-family: 'BebasNeueRegular';
+	text-align: center;
+	font-weight: 700;
+	font-size: 50px;
+}
+
+h2, h3 {
+	font-family: 'DIN';
+	font-size: 30px;
+}
+
+p{
+	font-family: 'SF Compact Text';
+	font-weight: 300;
+	font-size: 15px;
+}
+
+li , a{
+	
+display: inline-flex;
+	text-align: left;
+	padding: .2em;
+	
+text-decoration-line: none;
+	font-weight: 600;
+	text-decoration: none;
+	text-decoration-style:solid;
+	color: WHITE;
+	font-style: normal;
+	font-family: 'DIN' , Bold ;
+	font-size: 20px
+}
+
+
+
+
+/* Parent container  holds height and width determinbed for bodyc containers*/ 
+
+.parentcontainer{
+	
+	
+	flex: 100%;
+	height: auto;
+	width: 100%;
+	background-color: black;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+/* inside body containers will be responsive inside parent container*/ 
+
+.bodycontainer{
+	
+	flex: 100%;
+	background-color: blue;
+	padding: 1em;
+	height: 400px;
+	max-height: 600px;
+	width:100%;
+	max-width: 100%;
+	margin: 0 auto;
+	
+}
+
+
+/* child container inside body container */ 
+
+.bodychildcontainer{
+	
+	
+}
+
+
+.container {
+	
+	display: grid;
+	
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+	margin: 0 auto;
+}
+
+.container > div {
+	background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+	margin: 0;
+}
+
+.grid-1{
+	
+	grid-row-start: 1;
+  grid-row-end: 3;
+	
+}
+
+.grid-2{
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+
+.grid-3{
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+
+
+.grid-4{
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+
+
+
