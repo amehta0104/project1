@@ -44,9 +44,7 @@ header{
 
 header{
 	
-	box-shadow: 10px 5px 5px black;
-	border-color: black;
-	border-style: solid;
+	display: block;
 	
 	
 }
@@ -74,6 +72,8 @@ header{
 	
 	
 }
+
+
 
 #siteheaders{
 	
@@ -188,25 +188,31 @@ button{
 	
 	
 	flex: 100%;
-	height: auto;
+	height: 100%;
 	width: 100%;
 	background-color: #fbfbfd;
 	margin: 0;
 	padding: 2em;
 	align-content: center;
 		justify-content: center;
+	flex-wrap: wrap;
 }
 
 /* inside body containers will be responsive inside parent container*/ 
 
 .bodycontainer{
 	
+	display: flex;
 	flex: 100%;
+	flex-wrap: wrap;
 	background-color: #fbfbfd;
 	padding: 1em;
 	height: 600px;
+	width: 100%;
 	align-content: center;
 	justify-content: center;
+	margin: 0;
+	
 	
 
 	
@@ -236,14 +242,15 @@ button{
 
 .homecontainer {
 	
-	display: flex;
+	display: grid;
+	
  
   grid-gap: 20px;
   background-color: #fbfbfd;
   padding: 10px;
-	margin: auto;
+	margin: 0;
 	height: 600px;
-	width: 100%;
+	width: auto;
 	align-items: center;
 	justify-content: center;
 	
@@ -262,14 +269,18 @@ button{
 
 @media (max-width: 25rem) and (orientation: portrait){
     .container{
-        display: block;
+        display: flex;
 		 grid-gap: 10px;
+		flex: 100%;
+	flex-wrap: wrap;
 		
     } 
 	
 	.homecontainer{
-        display: block;
+        display: flex;
 		 grid-gap: 10px;
+		flex: 100%;
+	flex-wrap: wrap;
 		
     }
 	.grid-1, .grid-2, .grid-3, .grid-4{
