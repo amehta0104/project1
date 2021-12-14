@@ -54,7 +54,7 @@ header {
 	flex-wrap: wrap;
 	width: 100%;
 	padding: 2em;
-	align-content: : middle;
+	align-content: middle;
 	justify-content: center;
 	align-items: center;
 
@@ -469,7 +469,7 @@ h3 {
 	height: 36.25rem;
 	width: 100%;
 	align-content: center;
-	border-image-repeat: no-repeat;
+	
 	background-position: center;
 	background-size: cover;
 }
