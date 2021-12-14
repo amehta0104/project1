@@ -17,7 +17,7 @@ header{
 }
 .links{
 	padding: .5em;
-	background-image: url("../images/purple-space-passage-nb-2560x1440.jpg");
+	background-image: url("../images/purple-space-passage-nb-2560x1440.jpg" black);
 	background-clip:text;
 	-webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
