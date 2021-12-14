@@ -20,7 +20,7 @@ header {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	padding: .2em;
-	animation: bg-animation 30s infinite alternate;
+	
 
 }
 
