@@ -15,10 +15,7 @@ header {
 .links {
 	padding: .5em;
 	color: black;
-	background-image: url("../images/purple-space-passage-nb-2560x1440.jpg");
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	
 	padding: .2em;
 	
 
@@ -213,7 +210,11 @@ header {
 
 #navbar {
 
-
+background-image: url("../images/purple-space-passage-nb-2560x1440.jpg");
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: bg-animation 30s infinite alternate;
 	text-align: center;
 
 
