@@ -11,12 +11,7 @@ header {
 
 .links {
 	padding: .5em;
-	background-image: url("../images/purple-space-passage-nb-2560x1440.jpg" , black);
-	
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-size: 400%;
-	animation: bg-animation 30s infinite alternate;
+	color: black;
 }
 
 header {
