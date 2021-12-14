@@ -46,7 +46,7 @@ header {
 
 }
 
-#pinkbg {
+#pinkbg, #pinkbg2 {
 
 	background-color: #FFECEC;
 }
@@ -215,7 +215,7 @@ header {
 /* Nav Bar */
 
 
-#navbar {
+#navbar, #navbar2 {
 
 background-image: url("../images/purple-space-passage-nb-2560x1440.jpg");
 	background-clip: text;
