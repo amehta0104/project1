@@ -214,7 +214,7 @@ background-image: url("../images/purple-space-passage-nb-2560x1440.jpg");
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	animation: bg-animation 30s 0.01s infinite alternate;
+	-webkit-animation: bg-animation 30s 0.01s infinite alternate;
 	text-align: center;
 
 
