@@ -47,6 +47,7 @@ header{
 	display: block;
 	
 	
+	
 }
 
 
@@ -72,6 +73,152 @@ header{
 	
 	
 }
+
+#pinkbg{
+	
+	background-color: #fff2ff;
+}
+
+.aboutcol{
+	
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	padding: 2em;
+	align-content: : middle;
+	justify-content: center;
+	align-items:center;
+	
+	
+}
+.wrapper{
+	
+	margin: 0 auto;
+	width: 90%;
+	padding: 1em;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	vertical-align: middle;
+}
+
+#abouttext{
+	
+	font-size: 25px;
+}
+
+.resumewrapper{
+	
+	margin: 0 auto;
+	width: 95%;
+	padding: 1em;
+}
+
+.aboutcol > *:nth-child(1) {
+	
+	flex: 1 1 30%;
+	padding: 1em;
+	
+}
+
+#whiteblackbg{
+	
+	color: white;
+	background-color: black;
+}
+
+#white{
+	color: white;
+}
+
+.aboutcol > *:nth-child(2){
+	
+	flex: 1 1 70%;
+	padding: 1em;
+	
+}
+
+.skillsgrid{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1em;
+	margin: 0 -30px;
+	
+}
+
+.skillsgrid > * {
+	flex: 1 1 10em;
+	
+	grid-gap : 10px;
+	padding: 2em;
+	border-width: thin;
+	border-style: solid;
+	border-color: black;
+
+	
+	
+	
+
+}
+.black{
+	color: white;
+}
+
+.flexgridcol{
+	
+	margin: 10px 10px;
+	text-align: center;
+	height: auto;
+}
+
+.flexgridcol > h2 {
+	
+	vertical-align: middle;
+}
+
+.even-colums{
+	display: flex;
+	flex-wrap: wrap;
+	vertical-align: middle;
+	justify-content: center;
+	align-items:center;
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	padding: 1em;
+	height: auto;
+	
+}
+
+.even-colums > *{
+	flex-basis: 100%;
+	padding: 1em;
+	margin: 0 auto;
+	border-bottom-style: solid;
+	border-bottom-color: white;
+	border-bottom-width: thin;
+	
+	
+}
+
+.col{
+	
+	
+
+}
+
+.col > h3{
+	font-size: 20px;
+}
+
+#resumelist{
+	
+	font-size: 15px;
+	font-weight: 200;
+}
+
+
+
 
 
 
@@ -174,6 +321,46 @@ button{
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fbfbfd;
+	
+	
+	
+}
+
+.heromini{
+	
+ 
+  height: 300px;
+	width: 100%;
+	margin: 0;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+	align-content: center;
+	padding: 1em;
+	
+	
+	
+}
+
+h3{
+	color: black;
+}
+
+.herobanner{
+	
+ 
+  height: 100px;
+	width: 100%;
+	margin: 0;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+	align-content: center;
+	padding: 1em;
 	
 	
 	
