@@ -54,7 +54,7 @@ header {
 	flex-wrap: wrap;
 	width: 100%;
 	padding: 2em;
-	align-content: middle;
+	align-content:center;
 	justify-content: center;
 	align-items: center;
 
