@@ -34,12 +34,9 @@ header {
 
 
 .titletext {
-	color: #fbfbfd;
+	color: black;
 	font-size: 80px;
-	background-image: url("../images/purple-space-passage-nb-2560x1440.jpg");
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	
 	padding: .2em;
 	
 
