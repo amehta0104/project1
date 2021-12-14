@@ -85,6 +85,9 @@ header {
 	margin: 0 auto;
 	width: 95%;
 	padding: 1em;
+	justify-content: center;
+	align-items: center;
+	
 }
 
 .aboutcol > *:nth-child(1) {
@@ -92,6 +95,10 @@ header {
 	flex: 1 1 30%;
 	padding: 1em;
 
+}
+
+#whitebg{
+	background-color: white;
 }
 
 #whiteblackbg {
@@ -589,6 +596,15 @@ input[type=submit] {
   cursor: pointer;
 }
 
+#webbutton{
+	  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
   background-color: #45a049;
@@ -605,6 +621,10 @@ input[type=submit]:hover {
 	margin: 0;
 	justify-content: center;
 	
+}
+
+.graybg{
+	background-color: #f2f2f2;
 }
 
 
