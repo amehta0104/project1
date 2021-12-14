@@ -1,3 +1,6 @@
+
+
+
 * {
 	box-sizing: border-box;
 }
@@ -269,7 +272,7 @@ button {
 .hero {
 
 
-	height: 600px;
+	height: 36rem;
 	width: 100%;
 	margin: 0;
 
@@ -301,7 +304,7 @@ button {
 .heromini {
 
 
-	height: 300px;
+	height: 18.75rem;
 	width: 100%;
 	margin: 0;
 
@@ -323,7 +326,7 @@ h3 {
 .herobanner {
 
 
-	height: 100px;
+	height: 6.25rem;
 	width: 100%;
 	margin: 0;
 
@@ -366,7 +369,7 @@ h3 {
 	flex-wrap: wrap;
 	background-color: #fbfbfd;
 	padding: 1em;
-	height: 600px;
+	height: 36rem;
 	width: 100%;
 	align-content: center;
 	justify-content: center;
@@ -405,7 +408,7 @@ h3 {
 	background-color: #fbfbfd;
 	padding: 10px;
 	margin: 0;
-	height: 600px;
+	height: 36rem;
 	width: auto;
 	align-items: center;
 	justify-content: center;
@@ -415,8 +418,8 @@ h3 {
 .circle {
 	position: relative;
 	border-radius: 50%;
-	width: 300px;
-	height: 300px;
+	width: 18.75rem;
+	height: 18.75rem;
 	object-position: center;
 	object-fit: cover;
 	background-color: white;
@@ -456,9 +459,9 @@ h3 {
 	background-color: rgba(255, 255, 255, 0.2);
 	text-align: center;
 	padding: 20px 0px;
-	font-size: 35px;
+	font-size: 2em;
 	margin: 0;
-	height: 580px;
+	height: 36.25rem;
 	width: 100%;
 	align-content: center;
 	border-image-repeat: no-repeat;
